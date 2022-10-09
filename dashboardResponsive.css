@@ -1,0 +1,883 @@
+
+/* responsive */
+@media(max-width:1400px){
+  .cardmodel{
+    width: 400px;
+  }
+  .container2{
+    width: 500px;
+    margin-left: 20px;
+ }
+ /* .details{
+  height: 750px ;
+
+ }
+ .details table{
+  margin-top: -110px;
+ } */
+}
+@media(max-width:1300px){
+    .cardmodel{
+      width: 400px;
+    }
+    .container2{
+      width: 500px;
+      margin-left: 20px;
+   }
+   /* .details{
+    height: 750px ;
+
+   }
+   .details table{
+    margin-top: -110px;
+   } */
+  }
+  @media(max-width:1200px){
+    .cardmodel{
+      width: 400px;
+    }
+    .container2{
+      width: 500px;
+      margin-left: 20px;
+   }
+   /* .details{
+    height: 750px ;
+
+   }
+   .details table{
+    margin-top: -110px;
+   } */
+  }
+  
+  @media(max-width:992px) {
+    .graphbox{
+      grid-template-columns: 1fr ;
+      height: auto;
+    }
+    .navbar{
+      left: -10px;
+      width: 992px !important;
+     }
+     .navbar.active{
+      left: 300px;
+      margin-left: 10px;
+     }
+     
+   
+      .navigation{
+          left: 0px !important;
+      }
+      .navigation.active{
+          width: 300px;
+          left: 0;
+          
+      }
+      .main{
+          width: 100%;
+          left: 0;
+      }
+      .main.active{
+          left: 300px;
+      }
+      .cardBox{
+          grid-template-columns: repeat(1,1fr);
+         width: 90%;
+         
+      }
+      /* form3 */
+      .form3{
+        margin-left: 250px !important;
+      }
+      /* modal */
+      .modal2{
+        margin-left: 30% !important;
+  
+      }
+      .mainmodel div button{
+        margin-top: 30px;
+        margin-left: -65% !important;}
+    .container2{
+        margin-left: 100px;
+    }
+    .details{
+      grid-template-columns: repeat(1,1fr) !important;
+      
+    }
+    .popup .notification_dd{
+      width: 80%;
+    }
+    table,
+    .table5{
+      width: 900px;
+    }
+    .table4{
+      display: none;
+    }
+    .wrapper5,
+    .container2,
+    .slideshow-container7,
+    .dot-container7,
+    .tab01,
+    .tabcontent,
+    .tabVertical,
+    .graphbox,
+    .cont,
+    .wrapper1
+    {
+     width: 900px !important;
+      
+  }
+  .wrapper1{
+    margin-left: 150px !important;
+  }
+  .cont{
+    margin-left: 30px;
+    margin-top: 150px;
+    max-width: 900px !important;
+   }
+   .cont h2,
+   .social-media{
+    margin-left: -0px;
+   }
+   .cont label,
+   .cont button{
+    margin-left: 190px;
+   }
+   .cont p{
+    margin-left: -0px;
+   }
+   
+   .cont .sign-in{
+    padding: 0px !important;
+   }
+   .sign-h6 h6 a{
+    margin-left: 0px;
+
+   }
+   .wrapper1{
+    max-width: 600px !important;
+    margin-left: 0px;
+    margin-top: 150px;
+   }
+
+.iconFont{
+  width: 700px;
+}
+
+   .Tabbed,
+   .graphhidden{
+    display: none;
+   }
+   .popup-box,
+   .wrapperpop{
+     width: 500px !important;
+   }
+  }
+  @media(max-width:768px){
+    /* table */
+    .table4, table , .table5{
+      width: 768px;
+      margin-left: 10px ;
+    }
+    /* table */
+    
+    /* form */
+    .form1title .containerbox,
+    .containercf{
+      max-width: 700px;
+      width: 100%;
+      margin-left: 20px;
+    }
+    .toggleForm .form3{
+      margin-left: 180px !important;
+
+    }
+    .open-buttonpw,
+    .open-buttonpf{
+      display: none;
+    }
+    /* form */
+    /*  carousel*/
+    .wrapper5,
+    .container2,
+    .slideshow-container7,
+    .dot-container7
+    {
+      width: 700px !important;
+      margin-left: 20px;
+    }
+    .modal3{
+      left: 2% !important;
+      height: 600px;
+    }
+    .modal3 .mySlides3 {
+      margin-top: 10% !important;
+     
+    }
+    /*  carousel*/
+    /* tab */
+    .tab01,
+    .tabcontent,
+    
+    .tabVertical{
+      width: 700px !important;
+      margin-left: 20px;
+    }
+    .tab1,
+    .tabcontent1,{
+      width: 300px !important;
+    }
+    /* tab */
+    /* todo */
+    .todo,#todos{
+      width: 700px !important;
+      margin-left: 20px;
+    }
+    /* todo */
+    /* accordion */
+    .Drag,
+    .drag-area{
+      margin-left: 200px;
+    }
+    .wrapperdownloader{
+      margin-left: 150px;
+    }
+    .Accordion{
+      margin-left: 100px;
+    }
+    .more{
+      width: 700px;
+      margin-left: 20px;
+    }
+    /* accordion */
+    .navbar{
+      width: 768px !important;
+      margin-left: 0px;
+
+    }
+    .navbar.active {
+      margin-left: 10px;
+    }
+    
+    .wrapperpop .add-box{
+      width: 400px;
+    }
+    .popup-box .popuptab .content{
+      width: 400px;
+    }
+    .note{
+      width: 400px;
+    }
+    
+    .cardBox{
+      grid-template-columns: repeat(1,1fr) !important;
+  }
+  .details{
+    grid-template-columns: repeat(1,1fr) !important;
+    
+  }
+  .cardHeader h2{
+      font-size: 20px;
+
+  }
+  .user{
+      min-width: 40px;
+  }
+  .navigation{
+    width: 0px;
+     left: 0px !important;
+     
+ }
+ .navigation.active{
+     width: 300px;
+     left: 0;
+ }
+  .toggle{
+      z-index: 10001;
+  }
+  .main{
+    margin-left: 0px;
+  }
+  .main.active .toggle{
+      position: fixed;
+      
+      left: 200px !important;
+      color: var(--bg-color);
+  }
+      #btn{
+        display:  none;
+      }
+      .search{
+       width: 200px;
+       margin-right: 60px;
+      }
+      
+      .container2{
+       width: 400px;
+    }
+    .popup .notification_dd{
+      width: 80%;
+    }
+    .table4{
+      display: none;
+    }
+    table,
+    .table5{
+      width: 700px;
+    }
+    /* card */
+    .wrapper3dcard,
+    .wrappercp,
+    .containerprofile{
+      margin-left: 80px;
+
+    }
+    .containeroverly,
+    .wrappershopping{
+      margin-left: 50px;
+    }
+    .blog-cardslider{
+      display: none;
+    }
+    /* card */
+    .AlertMessages{
+      display: none;
+    }
+   .dropdowndrp{
+    margin-top: -10px;
+   }  
+   .modal2{
+    margin-left: -150px !important;
+    margin-top: 300px;
+   }
+   .todo,
+   #todos{
+    width: 400px !important;
+    margin-left: 170px;
+   }
+   .Drag,
+   .drag-area,
+   .wrapperdownloader,
+   .Accordion,
+   .more{
+    margin-left: 10px;
+    width: 450px;
+   }
+   .containerCalculator{
+    margin-left: 10px !important;
+    width: 480px;
+    margin-top: 100px;
+   }
+   .containerCalculator .display #screen{
+    width: 400px !important;
+   }
+   .cal .calendar{
+    width: 450px !important;
+
+   }
+   .left-side{
+    display: none;
+   }
+   .wrapper5,
+   .container2,
+   .slideshow-container7,
+   .dot-container7,
+   .tab01,
+   .tabcontent,
+   .tabVertical,
+   .graphbox,
+   .cont,
+   .wrapper1
+   {
+    width: 600px !important;
+   }
+   .cont{
+    margin-left: 30px;
+    margin-top: 150px;
+    max-width: 700px !important;
+   }
+   .cont h2,
+   .social-media{
+    margin-left: -0px;
+   }
+   .cont label,
+   .cont button{
+    margin-left: 190px;
+   }
+   .cont p{
+    margin-left: -0px;
+   }
+   
+   .cont .sign-in{
+    padding: 0px !important;
+   }
+   .sign-h6 h6 a{
+    margin-left: 0px;
+
+   }
+   .wrapper1{
+    max-width: 600px !important;
+    margin-left: 0px;
+    margin-top: 150px;
+   }
+
+.iconFont{
+  width: 700px;
+}
+
+   .Tabbed,
+   .graphhidden{
+    display: none;
+   }
+   .popup-box,
+   .wrapperpop{
+     width: 500px !important;
+   }
+    
+  
+  }
+  @media(max-width:600px){
+    .navbar{
+      width: 600px !important;
+      margin-left: 0px;
+
+    }
+    .navbar.active {
+      margin-left: 10px;
+    }
+    .search{
+      width: 100px;
+    }
+    .wrapperpop .add-box{
+      width: 400px;
+    }
+    .popup-box .popuptab .content{
+      width: 400px;
+    }
+    .note{
+      width: 400px;
+    }
+    
+    .cardBox{
+      grid-template-columns: repeat(1,1fr) !important;
+  }
+  .details{
+    grid-template-columns: repeat(1,1fr) !important;
+    
+  }
+  .cardHeader h2{
+      font-size: 20px;
+
+  }
+  .user{
+      min-width: 40px;
+  }
+  .navigation{
+    width: 0px;
+     left: 0px !important;
+     
+ }
+ .navigation.active{
+     width: 300px;
+     left: 0;
+ }
+  .toggle{
+      z-index: 10001;
+  }
+  .main{
+    margin-left: 0px;
+  }
+  .main.active .toggle{
+      position: fixed;
+      
+      left: 200px !important;
+      color: var(--bg-color);
+  }
+      #btn{
+        display:  none;
+      }
+      .search{
+        width: 200px;
+        margin-right: 20px;
+      }
+      .darkmood{
+        display: none;
+      }
+      .container2{
+       width: 400px;
+    }
+    .popup .notification_dd{
+      width: 80%;
+    }
+    .table4{
+      display: none;
+    }
+    table,
+    .table5{
+      width: 500px;
+    }
+      
+    /* form */
+    .form1title .containerbox,
+    .containercf{
+      max-width: 500px;
+      width: 100%;
+      margin-left: 20px;
+    }
+    .toggleForm .form3{
+      margin-left: 100px !important;
+
+    }
+    .open-buttonpw,
+    .open-buttonpf{
+      display: none;
+    }
+    /* form */
+    /* model */
+    .containermodel,
+    .modal__wrapper,
+    .modalModal,
+    .alert {
+      width: 580px !important;
+    }
+    .modal2{
+      margin-left: -260px !important;
+    }
+    /* model */
+    /* card */
+    .wrapper3dcard,
+    .wrappercp,
+    .containerprofile{
+      margin-left: 80px;
+
+    }
+    .containeroverly,
+    .wrappershopping{
+      margin-left: 50px;
+    }
+    .blog-cardslider{
+      display: none;
+    }
+    .popup-box,
+    .wrapperpop{
+      width: 300px !important;
+    }
+    /* card */
+    .wrapper5,
+    .container2,
+    .slideshow-container7,
+    .dot-container7,
+    .tab01,
+    .tabcontent,
+    .tabVertical,
+    .graphbox,
+    .cont,
+    .wrapper1,
+    {
+     width: 400px !important;
+    }
+    .Drag,
+    .drag-area,
+    .wrapperdownloader,
+    .Accordion,
+    .more{
+     margin-left: 10px;
+     width: 450px;
+    }
+    .containerCalculator{
+     margin-left: 50px !important;
+     width: 500px;
+     margin-top: 100px;
+    }
+    .containerCalculator .display #screen{
+     width: 460px !important;
+    }
+    .cal .calendar{
+     width: 550px !important;
+ 
+    }
+    .left-side{
+     display: none;
+    }
+    .modal3{
+      z-index: 9999;
+    }
+    .wrapper5,.row3,
+     .container2,
+    .slideshow-container7,
+    .dot-container7,
+    .tab01,
+    .tabcontent,
+    .tabVertical,
+    .graphbox,
+    .cont,
+    .wrapper1,
+    .todo,
+    #todos
+    {
+     width: 550px !important;
+    }
+    .cont{
+     margin-left: 30px;
+     margin-top: 150px;
+     max-width: 500px !important;
+    }
+    .cont h2,
+    .social-media{
+     margin-left: -40px;
+    }
+    .cont label,
+    .cont button{
+     margin-left: 140px;
+    }
+    .cont p{
+     margin-left: -100px;
+    }
+    
+    .cont .sign-in{
+     padding: 0px !important;
+    }
+    .sign-h6 h6 a{
+     margin-left: 0px;
+ 
+    }
+    .wrapper1{
+     max-width: 500px !important;
+     margin-left: 0px;
+     margin-top: 150px;
+    }
+ 
+ .iconFont{
+   width: 580px;
+ }
+ 
+    .Tabbed,
+    .graphhidden,
+    .sub-cont{
+     display: none;
+    }
+  }
+  
+  @media(max-width:480px){
+    .navbar{
+      width: 480px !important;
+      margin-left: 0px;
+
+    }
+    .navbar.active {
+      margin-left: 10px;
+    }
+    
+.notification_dd{
+  right: -125px;
+}
+
+.notification_dd:before{
+  display: none;
+}
+.notification_dd li.show_all{
+  width: 100%;
+}
+.popup .notification_dd{
+  width: 80%;
+}
+    .darkmood{
+      display: none;
+    }
+    .wrapperpop .add-box{
+      width: 400px;
+    }
+    .popup-box .popuptab .content{
+      width: 400px;
+    }
+    .note{
+      width: 400px;
+    }
+    
+    .cardBox{
+      grid-template-columns: repeat(1,1fr) !important;
+  }
+  .details{
+    grid-template-columns: repeat(1,1fr) !important;
+   
+    
+  }
+  .recentOders{
+    width: 400px !important;
+  }
+  .recentCustomers{
+    width: 400px;
+  }
+  .cardHeader h2{
+      font-size: 20px;
+
+  }
+  .user{
+      min-width: 40px;
+  }
+  .navigation{
+     width: 0px;
+      left: 0px !important;
+      
+  }
+  .navigation.active{
+      width: 300px;
+      left: 0;
+  }
+  .toggle{
+      z-index: 10001;
+  }
+  .main{
+    margin-left: 0px;
+  }
+  .main.active .toggle{
+      position: fixed;
+      
+      left: 200px !important;
+      color: var(--bg-color);
+  }
+      #btn{
+        display:  none;
+      }
+      .search{
+        display: none;
+      }
+      .navbar{
+        width: 480px;
+      }
+      .container2{
+       width: 400px;
+    }
+    .table4{
+      display: none;
+    }
+    table,
+    .table5{
+      width: 400px;
+    }
+    /* form */
+    .form1title .containerbox,
+    .containercf{
+      max-width: 400px;
+      width: 100%;
+      margin-left: 20px;
+    }
+    .toggleForm .form3{
+      margin-left: 50px !important;
+
+    }
+    .open-buttonpw,
+    .open-buttonpf{
+      display: none;
+    }
+    /* form */
+    /* card */
+    .wrapper3dcard,
+    .wrappercp,
+    .containerprofile{
+      margin-left: 80px;
+
+    }
+    .containeroverly,
+    .wrappershopping{
+      margin-left: 50px;
+    }
+    .blog-cardslider{
+      display: none;
+    }
+    /* card */
+    .AlertMessages{
+      display: none;
+    }
+   .dropdowndrp{
+    margin-top: -10px;
+   }  
+   .modal2{
+    margin-left: -150px !important;
+    margin-top: 300px;
+   }
+   .todo,
+   #todos{
+    width: 400px !important;
+   }
+   .Drag,
+   .drag-area,
+   .wrapperdownloader,
+   .Accordion,
+   .more{
+    margin-left: 10px;
+    width: 450px;
+   }
+   .containerCalculator{
+    margin-left: 10px !important;
+    width: 480px;
+    margin-top: 100px;
+   }
+   .containerCalculator .display #screen{
+    width: 400px !important;
+   }
+   .cal .calendar{
+    width: 450px !important;
+
+   }
+   .left-side{
+    display: none;
+   }
+   .wrapper5,
+   .container2,
+   .slideshow-container7,
+   .dot-container7,
+   .tab01,
+   .tabcontent,
+   .tabVertical,
+   .graphbox,
+   .cont,
+   .wrapper1,
+   {
+    width: 400px !important;
+   }
+   .cont{
+    margin-left: 30px;
+    margin-top: 150px;
+    max-width: 400px !important;
+   }
+   .cont h2,
+   .social-media{
+    margin-left: -120px;
+   }
+   .cont label,
+   .cont button{
+    margin-left: 70px;
+   }
+   .cont p{
+    margin-left: -250px;
+   }
+   
+   .cont .sign-in{
+    padding: 0px !important;
+   }
+   .sign-h6 h6 a{
+    margin-left: 0px;
+
+   }
+   .wrapper1{
+    max-width: 380px !important;
+    margin-left: 0px;
+    margin-top: 150px;
+   }
+
+.iconFont{
+  width: 450px;
+}
+
+   .Tabbed,
+   .graphhidden,
+   .sub-cont{
+    display: none;
+   }
+  }
+
+  
+
+
+
