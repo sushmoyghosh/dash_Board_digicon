@@ -22,6 +22,9 @@
     
 </head>
 <body>
+	<!-- custom cursors  -->
+<div class="cursor-1"></div>
+<div class="cursor-2"></div>
     <!-- header -->
 <header >
     <div  class="container ">
@@ -845,7 +848,33 @@
 
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    
+    <script>
+        
+//mouse
+let cursor1 = document.querySelector('.cursor-1');
+let cursor2 = document.querySelector('.cursor-2');
+
+window.onmousemove = (e) =>{
+    cursor1.style.top = e.pageY + 'px';
+    cursor1.style.left = e.pageX + 'px';
+    cursor2.style.top = e.pageY + 'px';
+    cursor2.style.left = e.pageX + 'px';
+}
+
+document.querySelectorAll('a').forEach(links =>{
+
+    links.onmouseenter = () =>{
+        cursor1.classList.add('active');
+        cursor2.classList.add('active');
+    }
+
+    links.onmouseleave = () =>{
+        cursor1.classList.remove('active');
+        cursor2.classList.remove('active');
+    }
+
+});
+    </script>
     <script>
         $('.btn').click(function(){
           $(this).toggleClass("click");
