@@ -188,7 +188,7 @@ nav ul ul li a{
   font-size: 13px;
   font-weight: 600;
   color: var(--sidebar-text-color);
-  padding-left: 80px;
+  padding-left: 40px;
 }
 nav ul ul li a .text{
  margin-top: -5px;
